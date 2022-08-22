@@ -6,15 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sfg-di" />
+        <module name="pet-clinic-web" />
+        <module name="pet-clinic-data" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sfg-di" target="11" />
+      <module name="pet-clinicc-data" target="18" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pet-clinic-data" options="-parameters" />
+      <module name="pet-clinic-web" options="-parameters" />
+      <module name="pet-clinicc-data" options="-parameters" />
       <module name="sfg-di" options="-parameters" />
     </option>
   </component>
