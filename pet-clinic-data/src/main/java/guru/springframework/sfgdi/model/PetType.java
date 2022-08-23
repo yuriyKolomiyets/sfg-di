@@ -1,6 +1,6 @@
 package guru.springframework.sfgdi.model;
 
-public class PetType {
+public class PetType extends BaseEntity {
 
     private Long id;
     private String name;
