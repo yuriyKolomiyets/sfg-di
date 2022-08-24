@@ -5,7 +5,7 @@ import guru.springframework.sfgdi.services.CrudService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long>  {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
 
     @Override
     public Set<Owner> findAll() {
@@ -13,13 +13,8 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     }
 
     @Override
-    public void delete(Owner object) {
-        super.delete(object);
-    }
-
-    @Override
     public Owner findById(Long id) {
-        return super.findByID(id);
+        return super.findById(id);
     }
 
     @Override
@@ -28,7 +23,12 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     }
 
     @Override
+    public void delete(Owner object) {
+        super.delete(object);
+    }
+
+    @Override
     public void deleteById(Long id) {
-        super.deleteByID(id);
+        super.deleteById(id);
     }
 }
