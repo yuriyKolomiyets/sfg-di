@@ -1,8 +1,6 @@
 package guru.springframework.sfgdi.services.map;
 
-import guru.springframework.sfgdi.model.Pet;
 import guru.springframework.sfgdi.model.PetType;
-import guru.springframework.sfgdi.services.PetService;
 import guru.springframework.sfgdi.services.PetTypeService;
 import org.springframework.stereotype.Service;
 
