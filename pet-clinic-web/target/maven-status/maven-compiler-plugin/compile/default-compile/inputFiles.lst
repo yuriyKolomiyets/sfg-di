@@ -1,5 +1,5 @@
-/Users/o.kolomiyets/Documents/sfg-di/pet-clinic-web/src/main/java/guru/springframework/sfgdi/bootstrap/DataLoader.java
-/Users/o.kolomiyets/Documents/sfg-di/pet-clinic-web/src/main/java/guru/springframework/sfgdi/controllers/OwnerController.java
-/Users/o.kolomiyets/Documents/sfg-di/pet-clinic-web/src/main/java/guru/springframework/sfgdi/controllers/IndexController.java
-/Users/o.kolomiyets/Documents/sfg-di/pet-clinic-web/src/main/java/guru/springframework/sfgdi/SfgPetClinicApplication.java
-/Users/o.kolomiyets/Documents/sfg-di/pet-clinic-web/src/main/java/guru/springframework/sfgdi/controllers/VetController.java
+/Users/o.kolomiyets/Documents/sfg-di/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java
+/Users/o.kolomiyets/Documents/sfg-di/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/IndexController.java
+/Users/o.kolomiyets/Documents/sfg-di/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/VetController.java
+/Users/o.kolomiyets/Documents/sfg-di/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/SfgPetClinicApplication.java
+/Users/o.kolomiyets/Documents/sfg-di/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java
