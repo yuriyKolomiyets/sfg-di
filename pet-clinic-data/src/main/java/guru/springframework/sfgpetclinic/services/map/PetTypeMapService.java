@@ -6,9 +6,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-/**
- * Created by jt on 7/29/18.
- */
 @Service
 public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
 
