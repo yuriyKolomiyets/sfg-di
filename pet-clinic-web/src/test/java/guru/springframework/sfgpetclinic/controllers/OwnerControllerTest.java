@@ -73,7 +73,7 @@ class OwnerControllerTest {
 
     @Test
     void processFindFormReturnOne() throws Exception {
-        when(ownerService.findAllByLastNameLike(anyString())).thenReturn(Arrays.asList(Owner.builder().city("1").build()));
+        when(ownerService.findAllByLastNameLike(anyString())).thenReturn(Arrays.asList(Owner.builder().id(1L).build()));
 
         mockMvc.perform(get("/owners"))
                 .andExpect(status().is3xxRedirection())
@@ -102,7 +102,7 @@ class OwnerControllerTest {
 
     @Test
     void processCreationForm() throws Exception {
-        when(ownerService.save(ArgumentMatchers.any())).thenReturn(Owner.builder().city("1").build());
+        when(ownerService.save(ArgumentMatchers.any())).thenReturn(Owner.builder().id(1L).build());
 
         mockMvc.perform(post("/owners/new"))
                 .andExpect(status().is3xxRedirection())
@@ -126,7 +126,7 @@ class OwnerControllerTest {
 
     @Test
     void processUpdateOwnerForm() throws Exception {
-        when(ownerService.save(ArgumentMatchers.any())).thenReturn(Owner.builder().city("1").build());
+        when(ownerService.save(ArgumentMatchers.any())).thenReturn(Owner.builder().id(1L).build());
 
         mockMvc.perform(post("/owners/1/edit"))
                 .andExpect(status().is3xxRedirection())
