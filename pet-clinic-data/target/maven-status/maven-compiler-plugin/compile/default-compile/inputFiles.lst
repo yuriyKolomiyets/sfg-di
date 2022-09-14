@@ -1,5 +1,6 @@
 /Users/o.kolomiyets/Documents/sfg-di/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/VetMapService.java
 /Users/o.kolomiyets/Documents/sfg-di/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/OwnerMapService.java
+/Users/o.kolomiyets/Documents/sfg-di/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/formatters/PetTypeFormatter.java
 /Users/o.kolomiyets/Documents/sfg-di/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/VisitService.java
 /Users/o.kolomiyets/Documents/sfg-di/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/OwnerRepository.java
 /Users/o.kolomiyets/Documents/sfg-di/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/springdatajpa/VetSDJpaService.java

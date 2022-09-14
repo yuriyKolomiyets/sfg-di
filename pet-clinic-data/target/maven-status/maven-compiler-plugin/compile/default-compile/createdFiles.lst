@@ -20,6 +20,7 @@ guru/springframework/sfgpetclinic/model/Pet$PetBuilder.class
 guru/springframework/sfgpetclinic/services/springdatajpa/PetSDJpaService.class
 guru/springframework/sfgpetclinic/services/map/SpecialtyMapService.class
 guru/springframework/sfgpetclinic/model/Person.class
+guru/springframework/sfgpetclinic/formatters/PetTypeFormatter.class
 guru/springframework/sfgpetclinic/services/map/AbstractMapService.class
 guru/springframework/sfgpetclinic/repositories/PetRepository.class
 guru/springframework/sfgpetclinic/services/VetService.class
